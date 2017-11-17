@@ -6,11 +6,13 @@
 
 ## Questions
 1. What are the order of insertions/removals for the following data structures?
-   - **Stack**
-   - **Queue**
+   - **Stack**Insertions are made to the top of the stack, the latest insertion is at the top. Removals are made from the top, the last insertion 
+would be the first removal.
+   - **Queue**Insertions are pushed to the back. The first insertion would remain at the top of the queue. Future insertions are added to behind
+that insertion and so on. Removals are made in first in-first out basis. The first insertion would be the first removal.
 2. What is the retreival time complexity for the following data structures?
    - **Linked List**
-   - **Hash Table**
+   - **Hash Table**the retrieval time is constant time.
    - **Binary Search Trees**
 2. What are some advantages to using a Hash Tables over an array in JavaScript?
 
